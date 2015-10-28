@@ -1,12 +1,15 @@
 @import "normalize";
 
 .container {
- background-color: yellow;
- max-width: 1040px;
- margin: 0;
+display: flex;
+flex-wrap: wrap;
+max-width: 1040px;
+margin: auto;
+
 }
 .three-up {
-  background-color: blue;
-  width: 300px;
+  flex: 1 0 calc(33.3333% - 40px);
   text-align: center;
+  margin: 20px;
+
 }
