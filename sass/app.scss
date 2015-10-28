@@ -5,6 +5,7 @@ display: flex;
 flex-wrap: wrap;
 max-width: 1040px;
 margin: auto;
+border: solid #47A1DA 4px;
 
 }
 .three-up {
@@ -12,4 +13,33 @@ margin: auto;
   text-align: center;
   margin: 20px;
 
+}
+.brand{
+  color: #48A2DB;
+  font-size: 29px;
+
+}
+.price {
+  color: #C9C3C0;
+  font-size: 25px;
+
+}
+.discript{
+  color: #68AFE0;
+  font-size: 15px;
+
+}
+
+button {
+  background-color: #49A2DB;
+  border: solid #49A2DB 1px;
+  padding: 10px;
+  color: white;
+
+}
+
+button:hover{
+  background-color: white;
+  color: #49A2DB;
+  border: solid green 1px;
 }
