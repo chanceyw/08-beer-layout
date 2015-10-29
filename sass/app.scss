@@ -1,8 +1,32 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 461px) {
+
   .container {
-    flex: 1 0 calc(flex 100% - 30px);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
   }
+  .three-up {
+    display: flex;
+    text-align: left;
+    margin: 0px;
+
+  }
+  button{
+    max-height: 60px;
+  }
+  .descript {
+    font-size: 12px;
+  }
+  .price {
+    font-size: 10px;
+  }
+  .brand {
+    font-size: 15px;
+  }
+
 }
+
 
 @import "normalize";
 * {
