@@ -26,6 +26,19 @@
   }
 
 }
+@media only screen and (max-width: 460px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .three-up {
+    flex: 1 0 calc(100% - 40px);
+    text-align: center;
+    margin: 20px;
+  }
+  }
 
 
 @import "normalize";
